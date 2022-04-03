@@ -268,7 +268,31 @@ $label-font-size: 1.3rem;
     background: $catalina-blue;
   }
 }
+
 .offer {
   background: linear-gradient(to right, rgba(171, 219, 227, 0.8), rgba(30, 129, 176, 0.8)), url("../assets/images/the_paradise_bg.jpg") bottom center no-repeat;
   background-size: cover;
+  .container {
+    .offer-content {
+      background-color: #fff;
+      text-align: center;
+      padding: 5rem 1rem;
+      position: relative;
+      overflow: hidden;
+        .discount {
+        background-color: $tacao;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 1rem;
+        text-transform: uppercase;
+        outline: 2px solid $tacao;
+        outline-offset: .5rem;
+        font-weight: bold;
+      }
+    }
+  }
 }
+
+
+

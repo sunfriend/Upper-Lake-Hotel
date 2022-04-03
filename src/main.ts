@@ -1,5 +1,5 @@
 import "./styles/main.scss";
-
+import "./scripts/lazy.js";
 
 let header = document.querySelector("header");
 let hamburgerMenu = document.querySelector(".hamburger-menu");
