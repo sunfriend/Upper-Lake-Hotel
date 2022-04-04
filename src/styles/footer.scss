@@ -1,0 +1,39 @@
+.logo {
+  max-width: 200px;
+}
+
+footer {
+  padding: 5rem 1rem;
+  background-color: $powder-blue;
+  color: $catalina-blue;
+}
+
+.footer-content-brand {
+  margin-bottom: 5rem;
+}
+
+.footer-heading {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.social-media {
+  display: flex;
+  .sm-link {
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid $tacao;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 1rem;
+    transition: background-color 0.5s;
+    i {
+      margin: auto;
+    }
+    &:hover {
+      background-color: $tacao;
+      color: $catalina-blue;
+    }
+  }
+}
